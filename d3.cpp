@@ -3,18 +3,13 @@
 using namespace std;
 int main()
 {
-    double res,arg;
-    cout << "Введите данные первого числа=  ";
+    double res,arg,d,st;
+    cout << "Vvedite dannie pervogo chisla=  ";
     cin >> arg;
-    cout << "Введите в какую степень нужно возвести= ";
-    double st;
+    cout << "Vvedite v kakuyu stepen' nuzhno vozvesti= ";
     cin >> st;
-    cout << "Вы вввели чилсо=" << arg <<endl;
-    res = sqrt(arg);
-    cout <<"Результат вычисления квартатного корня=  "
-         << res
-         << endl;
-    cout << "Результат возведения в степень" << pow(arg,st) <<endl;
+    d= pow(arg,st);
+    cout << "Resultat vozvedeniya v stepen'= " << d <<endl;
 system("pause");         
 return 0;
 }
