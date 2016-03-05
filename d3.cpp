@@ -11,6 +11,5 @@ int main()
     d= pow(arg,st);
     cout << "Resultat vozvedeniya v stepen'= " << d <<endl;
 system("pause");         
-return 0;
-}
-          
+  return 0;
+   }
